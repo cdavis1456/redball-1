@@ -1,49 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        
-        
-        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js">
-        </script>
-        
-        
-        <style> #redball {
-            position:absolute;
-        }
-        </style>
-        <script>
-        function pfadeout(){
-            var mypara=$("jr");
-            mypara.fadeOut();
-        }
-        
-        function pfadeIn(){
-                var myparagraph=$("#jr");
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> 
+            </script>
+         
+         <style>
+             #redball{
+                 position:absolute;
+             }
+         </style>
+            
+         <script>
+            function pfadeOut(){
+                var myparagraph=$("#gt");
+                myparagraph.fadeOut();
+            }
+            
+            function pfadeIn(){
+                var myparagraph=$("#gt");
                 myparagraph.fadeIn();
             }
             
+                     
+        </script>    
         
-        </script>
-        
-            <title>Basic HTML
-            </title>
-            </head>
-                <body>
-                    <p id="#jr">First paragraph</p>
-                    <p>I'm a Paragraph </p>
-                    <button Onclick="pfadeIn()">FadeIn</button>
-                    <button Onclick="pfadeout()">FadeOut</button>
-                    <button onclick="Octogon()">Octogon</button>
-                    <button onclick="Square()">Square</button>
-                    <button onclick="Triangle()">Triangle</button>
-                    <button onclick="moveright()">Move LEFT</button>
-                    <button onclick="moveleft()">Move RIGHT</button>
-                      <button onclick="moveup()">Move UP</button>
-                      <button onclick="movedown()">Move DOWN</button>
-                      <button onclick="thatway()">B.Left</button>
-                      <button onclick="thisway()">U.Right</button>
-                      <button onclick="canyoumove()">D.Right</button>
-                      <button onclick="yeet()">U.Left</button>
-                    <img id="redball" src="http://storage.googleapis.com/ics-redball/redball.jpg"/>
-                </body>
+    </head>
+            <body>
+                
+            <p id="gt">
+                My first Paragraph
+            </p>
+                
+            <p>
+                My Second Paragraph
+            </p>
+            
+            <p>
+                <button onclick="pfadeOut()">Fade Out</button>
+                <button onclick="pfadeIn()">Fade In</button>
+            </p>
+            
+            
+        <img id="redball" src="http://storage.googleapis.com/ics-redball/redball.jpg"></img>
+        <button onclick="sayhello()">hello worlds</button>
+        <button onclick="moveright()">move right</button>
+        <button onclick="moveleft()">move left</button>
+        <button onclick="moveup()">move up</button>
+        <button onclick="movedown()">move down</button>
+        <button onclick="moveupright()">Move Up Right</button>
+        <button onclick="movedownright()">move down right</button>
+        <button onclick="movedownleft()">move down left</button>
+        <button onclick="movesquare()">move square</button>
+        <button onclick="octagon()">octagon</button>
+        <button onclick="moveupleft()">move up left</button>
+        <button onclick="triangle()">Triangle</button>
+            
+            </body>
 </html>
+
